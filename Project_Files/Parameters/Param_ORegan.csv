@@ -1,0 +1,71 @@
+Parameter,Value
+Ideal gas constant [J.K-1.mol-1],8.31446261815324
+Faraday constant [C.mol-1],96485.33212331001
+Boltzmann constant [J.K-1],1.380649e-23
+Electron charge [C],1.602176634e-19
+Negative current collector thickness [m],1.2e-05
+Negative electrode thickness [m],8.52e-05
+Separator thickness [m],1.2e-05
+Positive electrode thickness [m],7.56e-05
+Positive current collector thickness [m],1.6e-05
+Electrode height [m],0.065
+Electrode width [m],1.58
+Negative current collector conductivity [S.m-1],58411000.0
+Positive current collector conductivity [S.m-1],36914000.0
+Negative current collector density [kg.m-3],8933.0
+Positive current collector density [kg.m-3],2702.0
+Negative current collector specific heat capacity [J.kg-1.K-1],<function copper_heat_capacity_CRC at 0x00000168E4EE4900>
+Positive current collector specific heat capacity [J.kg-1.K-1],<function aluminium_heat_capacity_CRC at 0x00000168E4EE4B80>
+Negative current collector thermal conductivity [W.m-1.K-1],<function copper_thermal_conductivity_CRC at 0x00000168E4EE4AE0>
+Positive current collector thermal conductivity [W.m-1.K-1],237.0
+Current function [A],5.0
+Contact resistance [Ohm],0
+Negative electrode conductivity [S.m-1],215.0
+Maximum concentration in negative electrode [mol.m-3],29583.0
+Negative particle diffusivity [m2.s-1],<function graphite_LGM50_diffusivity_ORegan2022 at 0x00000168E4EE49A0>
+Negative electrode OCP [V],<function graphite_LGM50_ocp_Chen2020 at 0x00000168E4EE4A40>
+Negative electrode active material volume fraction,0.75
+Negative electrode Bruggeman coefficient (electrolyte),1.5
+Negative electrode Bruggeman coefficient (electrode),0.0
+Negative electrode charge transfer coefficient,0.5
+Negative electrode double-layer capacity [F.m-2],0.2
+Negative electrode exchange-current density [A.m-2],<function graphite_LGM50_electrolyte_exchange_current_density_ORegan2022 at 0x00000168E4EE4C20>
+Negative electrode density [kg.m-3],2060.0
+Negative electrode specific heat capacity [J.kg-1.K-1],<function graphite_LGM50_heat_capacity_ORegan2022 at 0x00000168E4EE4E00>
+Negative electrode thermal conductivity [W.m-1.K-1],<function graphite_LGM50_thermal_conductivity_ORegan2022 at 0x00000168E4EE4D60>
+Negative electrode OCP entropic change [V.K-1],<function graphite_LGM50_entropic_change_ORegan2022 at 0x00000168E4EE4CC0>
+Positive electrode conductivity [S.m-1],<function nmc_LGM50_electronic_conductivity_ORegan2022 at 0x00000168E4EE4EA0>
+Maximum concentration in positive electrode [mol.m-3],51765.0
+Positive particle diffusivity [m2.s-1],<function nmc_LGM50_diffusivity_ORegan2022 at 0x00000168E4EE4FE0>
+Positive electrode OCP [V],<function nmc_LGM50_ocp_Chen2020 at 0x00000168E4EE51C0>
+Positive electrode porosity,0.335
+Positive electrode active material volume fraction,0.665
+Positive particle radius [m],5.22e-06
+Positive electrode Bruggeman coefficient (electrolyte),1.5
+Positive electrode Bruggeman coefficient (electrode),0.0
+Positive electrode charge transfer coefficient,0.5
+Positive electrode double-layer capacity [F.m-2],0.2
+Positive electrode exchange-current density [A.m-2],<function nmc_LGM50_electrolyte_exchange_current_density_ORegan2022 at 0x00000168E4EE5260>
+Positive electrode density [kg.m-3],3699.0
+Positive electrode specific heat capacity [J.kg-1.K-1],<function nmc_LGM50_heat_capacity_ORegan2022 at 0x00000168E4EE5300>
+Positive electrode thermal conductivity [W.m-1.K-1],<function nmc_LGM50_thermal_conductivity_ORegan2022 at 0x00000168E4EE53A0>
+Positive electrode OCP entropic change [V.K-1],<function nmc_LGM50_entropic_change_ORegan2022 at 0x00000168E4EE5440>
+Separator porosity,0.47
+Separator Bruggeman coefficient (electrolyte),1.5
+Separator Bruggeman coefficient (electrode),1.5
+Separator density [kg.m-3],1548.0
+Separator specific heat capacity [J.kg-1.K-1],<function separator_LGM50_heat_capacity_ORegan2022 at 0x00000168E4EE54E0>
+Separator thermal conductivity [W.m-1.K-1],0.3344
+Initial concentration in electrolyte [mol.m-3],1000.0
+Cation transference number,<function electrolyte_transference_number_EC_EMC_3_7_Landesfeind2019 at 0x00000168E4EE5620>
+Thermodynamic factor,<function electrolyte_TDF_EC_EMC_3_7_Landesfeind2019 at 0x00000168E4EE4F40>
+Electrolyte diffusivity [m2.s-1],<function electrolyte_diffusivity_EC_EMC_3_7_Landesfeind2019 at 0x00000168E4EE5580>
+Electrolyte conductivity [S.m-1],<function electrolyte_conductivity_EC_EMC_3_7_Landesfeind2019 at 0x00000168E4EE56C0>
+Reference temperature [K],298.15
+Total heat transfer coefficient [W.m-2.K-1],10.0
+Ambient temperature [K],298.15
+
+Open-circuit voltage at 0% SOC [V],2.5
+Open-circuit voltage at 100% SOC [V],4.4
+Initial temperature [K],298.15
+citations,"['ORegan2022', 'Chen2020']"
